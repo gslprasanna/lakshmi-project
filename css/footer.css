@@ -1,0 +1,85 @@
+footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+}
+.foo-con{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.foo-con .logo{
+    height: 100px;
+    margin-top: 30px;
+
+}
+.footer-ul{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    list-style: none;
+}
+.cat-tit{
+    
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255,255,255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+.footer-title, .info{
+    color: rgba(255,255,255,0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.footer-title{
+    margin-top: 80px;
+    font-size: 30px;
+    color: #fff;
+}
+.foo-so{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.soci-lk{
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: underline;
+    
+}
+.soci-lk:hover{
+    color: #fff;
+    
+}
+
+.soci-lk .fa
+{
+    margin-right: 8px;
+}
+
+.soci-lk:nth-child(1){
+    margin-left: 0;
+
+}

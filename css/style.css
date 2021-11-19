@@ -1,0 +1,16 @@
+body{
+	min-height: 400px;
+        background-color: #000066;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+background-color: #ff8080;
+width:1000px;
+	margin-top: 90px;
+        margin-bottom: 70px;
+	    min-height: 400px;
+}
